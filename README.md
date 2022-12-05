@@ -1,33 +1,40 @@
+`ORG.IPEP:`
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/ImageProcessing-ElectronicPublications/pied)
+![GitHub Release Date](https://img.shields.io/github/release-date/ImageProcessing-ElectronicPublications/pied)
+![GitHub repo size](https://img.shields.io/github/repo-size/ImageProcessing-ElectronicPublications/pied)
+![GitHub all releases](https://img.shields.io/github/downloads/ImageProcessing-ElectronicPublications/pied/total)
+![GitHub](https://img.shields.io/github/license/ImageProcessing-ElectronicPublications/pied)  
+
 # PIED
 
-## 概要
-パレット(Palette)から画像(Image)を誤差拡散法(Error Diffusion)で再構成するプログラムです。
+## Overview
 
-## 依存環境
+A program that reconstructs an image from a palette using the error diffusion method.
+
+## Dependencies
+
 - OpenCV4
-```sh
+``` sh
 sudo apt install libopencv-dev
 ```
 
-## 動作確認
-- Ubuntu 20.04
+## Install
 
-## リポジトリーをクローン
-```sh
-git clone https://github.com/Himeyama/pied
-cd pied
-```
-
-## インストール
-```sh
+``` sh
 make
 sudo make install
 ```
 
-## コマンド
-```sh
-pied [入力画像ファイル名] [出力画像ファイル名] [パレット画像ファイル名] 
+## Usage
+
+``` sh
+pied [input image file name] [output image file name] [palette image file name]
 ```
 
-## 備考
-パレット画像は縦1pxで横長のものです。`color_palette.png`がそれです。
+## Remarks
+
+The palette image is 1px high and wide. `color_palette.png` is it.
+
+## Origin
+
+[Japanese README](README.jp.md).
